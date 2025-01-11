@@ -1,0 +1,943 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#feb4cd 19.1%, #fff35f 10%);
+}
+
+@font-face {
+    font-family: gulfs;
+    src: url(fonts/gulfs-display-normal.ttf);
+}
+
+@font-face {
+    font-family: nobody;
+    src: url(fonts/nobodyhome.ttf);
+}
+
+h3{
+    font-size:  1.6vw;
+    color: black;
+    font-family: gulfs;
+}
+
+
+.tituloImg{
+    padding-top: 1vw;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.mujerFlores{
+    width: 20vw;
+    height: 26vw;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-top: 8.5vw;
+    margin-right: 3vw;
+}
+
+h1{
+    padding-right: 2vw;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 5.8vw;
+    font-family: gulfs;
+    color: rgb(79, 79, 252);
+}
+
+.decoracionAzul{
+    position: absolute;
+    margin-top: 27vw;
+    margin-right: 20vw;
+}
+
+.imagenesInicio{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -10vw;
+}
+
+.imgInicio{
+    width: 24vw;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.imagenBodaPrincipal{
+    border: 1px solid black;
+    width: 40vw;
+    z-index: -1;
+    border-radius: 40%;
+}
+
+.imgHappy{
+    width: 10vw;
+    height: 10vw;
+}
+
+.shapeLarge{
+    width: 8vw;
+    position: absolute;
+    margin-left: 26.5vw;
+    margin-top: -4vw;
+}
+
+.estrellaAmarilla{
+    position: absolute;
+    width: 4vw;
+    margin-right: 74vw;
+    margin-top: 29vw;
+}
+
+.estrellaAmarillaPe{
+    width: 2vw;
+    position: absolute;
+    margin-right: 79vw;
+    margin-top: 15vw;
+}
+
+.estrellaAmarillaPe2{
+    width: 2vw;
+    position: absolute;
+    margin-right: 25vw;
+    margin-top: 38vw;
+}
+
+.texto{
+    padding-left: 2.5vw;
+    display: flex;
+    gap: 20px;
+}
+
+.luna, .luna2{
+    width: 3vw;
+}
+
+.textoFine{
+    margin-left: 41vw;
+}
+
+.pagina2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuadroRosa, .cuadroRosa2{
+    position: absolute;
+    width: 27vw;
+    height: 36.2vw;
+    background-color: #feb4cd;
+    border: 1px solid black;
+}
+
+.cuadroBlanco{
+    width: 27vw;
+    height: 36.2vw;
+    position: absolute;
+    background-color: white;
+    transform: rotateZ(-3deg);
+    border: 1px solid black;
+    margin-left: 2vw;
+    margin-top: -1vw;
+}
+
+.cuadroRosa{
+    transform: rotateZ(-3deg);
+    margin-top: 1vw;
+    z-index:-1;
+}
+
+.cuadroRosa2{
+    transform: rotateZ(-3deg);
+    margin-left: 1vw;
+    z-index: -1;
+}
+
+.imgFiesta{
+    width: 25vw;
+    transform: rotateZ(-3deg);
+    margin-left: 3.1vw;
+}
+
+h2{
+    font-size: 8vw;
+    font-family: gulfs;
+    line-height: 6.3vw; /* Aumenta el espacio entre líneas */
+    margin: 0;
+    color: #055dfa;
+    padding-bottom: 4vw;
+}
+
+h4{
+    width: 47vw;
+    font-family: sans-serif;
+    font-size: 1.2vw;
+    margin: 0;
+}
+
+.anilloEstrella{
+    display: flex;
+    align-items: center;
+    margin-top: -2vw;
+}
+
+.anillo, .estrella{
+    width: 10vw;
+}
+
+.anillo{
+    margin-left: 2vw;
+}
+
+.lunas{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw;
+}
+
+.fotos{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-top: 6vw;
+}
+
+.imgAncho{
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+
+.imgLargo{
+    width: 16vw;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+
+.naranja{
+    height: 10vw;
+    margin-top: -9vw;
+    background-color: #ff6541;
+    border: 1px solid black;
+    z-index: -1;
+}
+
+.precios{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textoConstruye{
+    width: 38.4vw;
+    background-color: #feb4cd;
+}
+
+.textPaquete{
+    color: #ff6541;
+    font-size: 3vw;
+    padding-left: 4vw;
+    margin-bottom: 0;
+    margin-top: 1vw;
+}
+
+.horasTotalesCont{
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.textHoras{
+    font-family: gulfs;
+    color: #055dfa;
+    font-size: 1.5vw;
+}
+
+.contHoras3{
+    display: flex;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 1vw;
+}
+
+.tresCirculo{
+    width: 4vw;
+    height:2vw;
+    background-color: #055dfa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: white;
+}
+
+.pregunta{
+    width: 1vw;
+}
+
+.rayaImgMusica{
+    width: 20vw;
+}
+
+.rayaAmarilla{
+    margin-top: 3vw;
+    width: 29vw;
+    height: 0.5vw;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #fff35f;
+    margin-left: 4vw;
+}
+
+.disco{
+    position: absolute;
+    width: 5vw;
+    margin-top: -2.2vw;
+    margin-left: 0.5vw;
+}
+
+.sesionesCont{
+    display: flex;
+}
+
+.sesiones{
+    width: 20.05vw;
+    height: 23vw;
+    background-color: white;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sAmarillo{
+    background-color: #fff35f;
+}
+
+.sAzul{
+    background-color: #055dfa;
+}
+
+.textSesiones, .textSesiones2, .textSesiones3, .textSesiones4{
+    text-align: center;
+    font-size: 1.4vw;
+    font-family: gulfs;
+    margin-top: 3vw;
+}
+
+.textSesiones{
+    color: #ff6541;
+}
+.textSesiones2{
+    color: #055dfa;
+}
+.textSesiones3{
+    color: white;
+}
+.textSesiones4{
+    color: #0247c2;
+}
+.contCara, .contCara2{
+    width: 9vw;
+    height: 5vw;
+    border-radius: 30px;
+    padding: 0.4vw;
+    margin-top: 2vw;
+    box-shadow: 5px 8px  black;
+    flex-wrap: wrap;
+
+}
+
+.contCara{
+    background-color: #fe6440;
+}
+
+.contCara2{
+    background-color: #feb4cd;
+}
+
+.cara,.cara2{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cara{
+    background-color: #fff35f;
+}
+
+.cara2{
+    background-color: #055dfa;
+}
+.imgCara{
+    width: 4.6vw;
+    border: 1px solid black;
+    border-radius: 50%;
+    transform: rotateZ(-22deg);
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.knob{
+    width: 8vw;
+}
+
+.contMapa{
+    display: flex;
+}
+
+.contCabinaFotos{
+    width: 20vw;
+    height: 26vw;
+    background-color: #fff35f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.contBlanco{
+    width: 10vw;
+    height: 5vw;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 4px 6px 0px black;
+}
+
+.circuloRosa{
+    width: 2vw;
+    height: 2.5vw;
+    background-color: #feb4cd;
+    border-radius: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.circuloBlanco{
+    width: 0.7vw;
+    height: 0.5vw;
+    border-radius: 36%;
+    border: 2px solid black;
+    background-color: white;
+}
+.menos, .add{
+    width: 2vw;
+}
+
+.lugar{
+    width: 38.6vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoLugar{
+    display: flex;
+    justify-content: space-around;
+    width: 36vw;
+}
+
+.textoSeleccioneRegion{
+    font-size: 1vw;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 3.5vw;
+}
+
+.mapa{
+    padding: 1vw;
+    width: 29vw;
+}
+
+.total{
+    width: 34.1vw;
+    height: 13vw;
+    border: 1px solid black;
+    background-color: #fe6440;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6vw;
+}
+
+.textTotal{
+    color: #feb4cd;
+    font-size: 2vw;
+    font-family: gulfs
+}
+
+.precio{
+    font-family: gulfs;
+    color: #fff35f;
+    font-size: 5vw;
+}
+
+.contEnvia{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.textandEmail{
+    width: 19vw;
+    height: 13vw;
+    background-color: #feb4cd;
+    padding-left: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textEnvia{
+    font-family: gulfs;
+    font-size: 2vw;
+    margin-top: -1vw;
+}
+
+.email{
+    font-family: sans-serif;
+    color: #ff6541;
+    margin-top: 1vw;
+}
+
+.lineaNaranja{
+    width: 18vw;
+    height: 0.5vw;
+    margin-top: 0.5vw;
+    background-color: #ff6541;
+}
+
+.contCirculo{
+    display: flex;
+    width: 15.2vw;
+    background-color: #feb4cd;
+    border-right: 1px solid black;
+    align-items: center;
+}
+
+.preciona{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: #ff6541;
+    font-size: 0.7vw;
+    font-family: gulfs;
+    box-shadow: 3px 5px black;
+}
+
+.Anillo{
+    position: absolute;
+    margin-left: 36.5vw;
+    margin-top: 27.4vw;
+    width: 8vw;
+}
+
+.camara{
+    position: absolute;
+    margin-top: 30vw;
+    margin-left: 76.3vw;
+    width: 8vw;
+}
+
+.contConsultaFecha{
+    display: flex;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 54vw;
+    background-color: #feb4cd;
+}
+
+.textConsulta{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+    width: 50vw;
+    height: 54vw;
+    background-color: #feb4cd;
+}
+.musica, .ya,.discoMano,.estrellasAzules,.corazonColores,.anilloFecha,.loop,.boxIcon,.loopWide,.caraSonriente,.drinks{
+    position: absolute;
+}
+
+.musica{
+    width: 14vw;
+    margin-right: 21vw;
+    margin-bottom: 33vw;
+}
+
+.ya{
+    width: 10vw;
+    margin-bottom: 41vw;
+    margin-left: 3vw;
+}
+
+.discoMano{
+    width: 10vw;
+    margin-bottom: 33vw;
+    margin-left: 30vw;
+}
+
+.estrellasAzules{
+    width: 6vw;
+    margin-left: 33vw;
+    margin-bottom: 15vw
+}
+
+.anilloFecha{
+    width: 10vw;
+    margin-left: 31vw;
+}
+
+.loop{
+    width: 6vw;
+    margin-left: 28vw;
+    margin-top: 13.5vw;
+    z-index: 1;
+}
+
+.drinks{
+    width: 10vw;
+    margin-left: 31vw;
+    margin-top: 31vw;
+    z-index: 1;
+}
+
+.corazonColores{
+    width: 7vw;
+    margin-right: 37vw;
+    margin-bottom: 3vw;
+}
+
+.boxIcon{
+    width: 9vw;
+    margin-top: 18vw;
+    margin-right: 28vw;
+}
+
+.loopWide{
+    width: 17vw;
+    margin-top: 33.6vw;
+    margin-right: 15vw;
+    z-index: 1;
+}
+
+.caraSonriente{
+    width: 8vw;
+    margin-right: 24.6vw;
+    margin-top: 36vw;
+    z-index: 1;
+}
+.muñecosBoda{
+    width: 30vw;
+    z-index: 1;
+}
+
+.texto2{
+    font-size: 6vw;
+    font-family: gulfs;
+    color: #055dfa;
+    padding: 0;
+    margin-top: 12vw;
+    line-height: 5vw; /* Aumenta el espacio entre líneas */  
+}
+
+.calendarioFlechas{
+    width: 39vw;
+    border-bottom: 4px solid #ff6541;
+    padding-bottom: 0.3vw;
+    display: flex;
+    margin-top: 5vw;
+}
+
+.calendario{
+    font-family: gulfs;
+    font-size: 3vw;
+    color: #ff6541;
+}
+
+.flecha,.flecha2{
+    width: 2.5vw;
+}
+
+.flecha{
+    margin-left: 8vw;
+}
+
+.flecha2{
+    background-color: #ff6541;
+    border-radius: 50%;
+    padding: 1.2vw;
+    margin-left: 2vw;
+}
+
+.textoRevisemos{
+    font-family: sans-serif;
+    margin-top: 1vw;
+    font-size: 1.3vw;
+    font-weight: bold; /*Letra resaltada */
+}
+
+.contacto{
+    margin-left: -2vw;
+    width: 43vw;
+    height: 5vw;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    background-color: white;
+    margin-top: 5vw;
+    box-shadow: -5px 5px black;
+}
+
+.textoSigueRedes, .textPolitica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 5vw;
+    font-family: sans-serif;
+    font-size: 1vw;
+    border: 1px solid black;
+    text-align: center;
+}
+.contImg{
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.imgRedes{
+    width: 2.1vw;
+    padding: 0.5vw;
+    border: 1px solid black;
+    height: 2vw;
+    border-radius: 50%;
+}
+.azul{
+    background-color: #9ef3f3;
+}
+.rosa{
+    background-color: #feb4cd;
+}
+.amarillo{
+    background-color: #fff35f;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1vw;
+    background-color: #feb4cd;
+}
+
+.hamburguesa {
+    display: none; 
+    width: 5vw;
+    height: 5vw;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.imgMenu {
+    width: 4vw;
+    height: 4vw;
+    margin-right: 1vw;
+}
+
+.menu-item h3 {
+    font-size: 2vw;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+    
+@media (max-width: 768px) {
+    .mujerFlores, .imgInicio, .shapeLarge, .textoFine,.textoLovers, .lunas{
+        display: none;
+    }
+    .imagenesInicio{
+        gap: 0;
+        margin-top: 0;
+        flex-direction: column;
+        margin-top: -13vw;
+    }
+    .tituloImg{
+        justify-content: center;
+    }
+    h1{
+        font-size: 10vw;
+    }
+    .decoracionAzul{
+        margin-top: 27vw;
+        margin-right: 20vw;
+    }
+    .imagenBodaPrincipal{
+        width: 65vw;
+    }
+    .imgHappy{
+        position: absolute;
+        margin-top: 73vw;
+        width: 20vw;
+        height: 20vw;
+        margin-left: -50vw;
+    }
+    .texto{
+        padding: 2vw;
+        margin-top: 8vw;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .luna,.luna2{
+        width: 10vw;
+    }
+    .pagina2{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 8vw;
+    }
+    h2{
+        font-size: 20vw;
+        line-height: 15vw; /* Aumenta el espacio entre líneas */
+    }
+    h4{
+        width: auto;
+        font-size: 5vw;
+    }
+    .anilloEstrella{
+        margin-top: 3vw;
+    }
+    h3{
+        font-size: 4vw;
+    }
+    .anillo,.estrella{
+        width: 20vw;
+    }
+    .imagenCuadro{
+        display: flex;
+        justify-content: center;
+        margin-top: 7vw;
+    }
+    .cuadroRosa, .cuadroRosa2,.cuadroBlanco{
+        width: 56vw;
+        height: 70vw;
+    }
+    .cuadroRosa2{
+        margin-left: 3vw;
+    }
+    .cuadroRosa{
+        margin-top: 2vw;
+    }
+    .cuadroBlanco{
+        margin-top: -2vw;
+        margin-left: 6vw;
+    }
+    .imgFiesta{
+        width: 52vw;
+        height: 66vw;
+        margin-top: 0vw;
+        margin-left: 6vw;
+        border: 1px solid black;
+    }
+    .fotos{
+        gap: 4px;
+        justify-content: center;
+    }
+    .imgLargo{
+        width: 22vw;
+    }
+    .imgAncho{
+        width: 45vw;
+    }
+    .naranja{
+        height: 20vw;
+    }
+    .preciona{
+        padding: 0.3vw;
+        box-shadow: 2px 1px ;
+    }
+    .contCara,.contCara2{
+        box-shadow: 3px 2px;
+        padding-bottom: 1vw;
+    }
+    .tresCirculo{
+        width: 3vw;
+        margin-left: 10vw;
+    }
+    .hamburguesa {
+        display: block;
+    }
+
+    .menu {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 12vw;
+        background-color: #feb4cd;
+        padding: 2vw;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    .menu.active {
+        display: flex; /* Mostrar el menú cuando se activa */
+    }
+    .decoracionAzul{
+        width: 15vw;
+        margin-top: 48vw;
+        margin-left: 90vw;
+    }
+    .estrellaAmarillaPe{
+        width: 4vw;
+        margin-top: 20vw;
+    }
+    .estrellaAmarilla{
+        width: 7vw;
+        margin-top: 50vw;
+        margin-left: -10vw;
+    }
+    .estrellaAmarillaPe2{
+        width: 4vw;
+        margin-top: 60vw;
+        margin-left: 75vw;
+        margin-right: 0;
+    }
+}
